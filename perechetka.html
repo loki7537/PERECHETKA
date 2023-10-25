@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<meta charset="UTF-8">
+<!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>-->
+<script src="xlsx.full.min.js"></script>
+<div class=my-3>
+<section class=py-4.py-xl-5>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="perechetka.css">
+    <div class=container>
+        <div class="bg-light border rounded border-0 border-light d-flex flex-column justify-content-between align-items-center flex-lg-row p-4 p-lg-5">
+            <div class="text-center text-lg-start py-3 py-lg-1">
+                <h2 class=fw-bold.mb-2>
+                    <strong>Загрузите файл с перечеткой</strong>
+                </h2>
+                <a href="Page/my.html">Подробнее о проверяемых ошибках</a>
+            </div>
+            <form class="d-flex justify-content-center flex-wrap my-2" method="post">
+                <div class=my-2>
+                    <input class="form-control" type="file" id="my_input" accept=".xls">
+                </div>
+                <div class=my-2>
+                    <input class="btn btn-primary ms-sm-2" type="button" id="my_button" value="Проверить">
+                </div>
+            </form>
+        </div>
+        <div class=my-2 id="my_body"> </div>
+    </div>
+</section>
+</div>
+<script src="perechetka.js"></script>
+</html>
